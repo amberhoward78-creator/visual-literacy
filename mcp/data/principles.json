@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Gestalt Principles",
+    "category": "Grouping",
+    "subprinciples": [
+      {
+        "name": "Proximity",
+        "explanation": "Objects close together are perceived as a group.",
+        "design_implication": "Place related items near each other. Use spacing to signal whether things belong together or are separate.",
+        "anti_pattern": "Equal spacing between all elements, regardless of relationship."
+      },
+      {
+        "name": "Similarity",
+        "explanation": "Objects that look alike are perceived as related.",
+        "design_implication": "Use consistent visual treatments for items of the same type.",
+        "anti_pattern": "Styling the same type of content differently across a document."
+      },
+      {
+        "name": "Closure",
+        "explanation": "The brain fills in missing information to perceive complete shapes.",
+        "design_implication": "You do not need to draw every border, line, or boundary. Partial cues are sufficient.",
+        "anti_pattern": "Over-specifying every boundary when partial cues would work."
+      },
+      {
+        "name": "Continuity",
+        "explanation": "The eye follows smooth paths rather than abrupt changes in direction.",
+        "design_implication": "Align elements along clear axes. Use consistent margins and grid lines.",
+        "anti_pattern": "Misaligned elements that force the eye to zigzag."
+      },
+      {
+        "name": "Figure-Ground",
+        "explanation": "The brain separates what is important (figure) from what is background (ground).",
+        "design_implication": "Primary content must be visually distinct from secondary content.",
+        "anti_pattern": "Everything at the same visual level."
+      },
+      {
+        "name": "Common Region",
+        "explanation": "Objects within a shared boundary are perceived as a group.",
+        "design_implication": "Cards, containers, and bounded sections group related content.",
+        "anti_pattern": "Related content without visual boundaries when proximity alone is insufficient."
+      }
+    ]
+  },
+  {
+    "name": "Working Memory Limits",
+    "category": "Cognitive Load",
+    "subprinciples": [
+      {
+        "name": "Miller's Law",
+        "explanation": "The average person can hold 7±2 chunks in short-term memory.",
+        "design_implication": "Break information into groups of 4-6 items.",
+        "anti_pattern": "Presenting more than 7 items without structure."
+      },
+      {
+        "name": "Cognitive Chunking",
+        "explanation": "People naturally group information into chunks to manage complexity.",
+        "design_implication": "Design for chunks. Every heading, grouping, and visual boundary is a chunk boundary.",
+        "anti_pattern": "Presenting unstructured lists longer than 6 items."
+      },
+      {
+        "name": "Intrinsic Load",
+        "explanation": "The inherent complexity of the material. Cannot be reduced, only managed.",
+        "design_implication": "Present complex content with progressive disclosure, clear hierarchy, and chunking.",
+        "anti_pattern": "Dumping all complex information at once."
+      },
+      {
+        "name": "Extraneous Load",
+        "explanation": "Cognitive effort wasted on figuring out the interface, layout, or presentation.",
+        "design_implication": "Eliminate extraneous load through clear, consistent, intentional design.",
+        "anti_pattern": "Decorative elements, inconsistent formatting, unclear hierarchy."
+      }
+    ]
+  },
+  {
+    "name": "Pre-Attentive Processing",
+    "category": "Perception",
+    "subprinciples": [
+      {
+        "name": "Pre-Attentitive Properties",
+        "explanation": "The brain processes certain visual properties in under 250ms: color, size, orientation, spatial position, contrast.",
+        "design_implication": "Use pre-attentitive properties to guide attention to the most important information.",
+        "anti_pattern": "Making everything equally prominent."
+      },
+      {
+        "name": "Non-Pre-Attentitive Properties",
+        "explanation": "Text content, meaning, and relationships require conscious processing.",
+        "design_implication": "Do not rely on content reading for hierarchy. Use visual properties.",
+        "anti_pattern": "Expecting readers to determine importance by reading all text."
+      }
+    ]
+  },
+  {
+    "name": "Reading Patterns",
+    "category": "Eye Movement",
+    "subprinciples": [
+      {
+        "name": "F-Pattern",
+        "explanation": "Readers scan the top, then move down the left side, occasionally darting right.",
+        "design_implication": "Put the most important information at the top. Use strong left-side headings.",
+        "anti_pattern": "Burying key information in the middle or right of dense text."
+      },
+      {
+        "name": "Z-Pattern",
+        "explanation": "When there is little text, the eye moves top-left to top-right to bottom-left to bottom-right.",
+        "design_implication": "Place key information along the Z-axis.",
+        "anti_pattern": "Placing critical information outside the Z path."
+      },
+      {
+        "name": "Gutenberg Diagram",
+        "explanation": "The page divides into four quadrants. Primary optical area is top-left. Terminal area is bottom-right.",
+        "design_implication": "Place the most important content top-left and the call-to-action bottom-right.",
+        "anti_pattern": "Placing the primary message in a weak quadrant."
+      }
+    ]
+  },
+  {
+    "name": "Signal-to-Noise Ratio",
+    "category": "Clarity",
+    "subprinciples": [
+      {
+        "name": "Signal vs Noise",
+        "explanation": "Every element is either signal (essential) or noise (everything else). More noise = harder to extract signal.",
+        "design_implication": "Remove decorative elements, redundant text, and filler content.",
+        "anti_pattern": "Treating every pixel as equally important."
+      },
+      {
+        "name": "Paradox of Choice",
+        "explanation": "More options create decision fatigue, not freedom.",
+        "design_implication": "Fewer choices, presented clearly, lead to better outcomes.",
+        "anti_pattern": "Presenting many options with equal prominence."
+      }
+    ]
+  },
+  {
+    "name": "Progressive Disclosure",
+    "category": "Information Architecture",
+    "subprinciples": [
+      {
+        "name": "Layered Understanding",
+        "explanation": "The brain cannot process all information simultaneously. It builds understanding in layers.",
+        "design_implication": "Lead with the most important information. Provide detail on demand.",
+        "anti_pattern": "Dumping all information upfront."
+      }
+    ]
+  },
+  {
+    "name": "Consistency and Expectation",
+    "category": "Predictability",
+    "subprinciples": [
+      {
+        "name": "Predictive Models",
+        "explanation": "The brain builds predictive models. Violations create surprise, which costs attention.",
+        "design_implication": "Same content type always looks the same. Same action always appears in the same position.",
+        "anti_pattern": "Inconsistent styling for the same content type."
+      }
+    ]
+  },
+  {
+    "name": "Affordance and Legibility",
+    "category": "Usability",
+    "subprinciples": [
+      {
+        "name": "Form Matches Function",
+        "explanation": "Elements should look like what they are. A button should look clickable.",
+        "design_implication": "Interactive elements must look interactive. Static elements must not.",
+        "anti_pattern": "Non-interactive elements styled as interactive (fake buttons, underlined non-links)."
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "triggers": ["white space", "whitespace", "spacing", "space things out", "reduce space", "add space"],
+    "perceptual_intent": "The visual distance between content does not reflect the conceptual relationship between ideas.",
+    "how_to_execute": "Evaluate conceptual relationships. Increase inter-section spacing to 2-3x intra-section spacing. Keep closely related concepts visually connected. Use larger spacing to signal meaningful transitions.",
+    "related_heuristics": ["Proximity Signals Relationship", "Spacing Should Follow a Scale", "White Space Is Not Empty Space"]
+  },
+  {
+    "triggers": ["heading", "headings", "bigger heading", "heading size", "section title"],
+    "perceptual_intent": "The visual hierarchy is insufficient. The reader cannot scan the page and identify the information structure.",
+    "how_to_execute": "Increase the contrast between heading and body text through size, weight, whitespace, or color. Ensure headings tell the story even if the body is never read.",
+    "related_heuristics": ["Attention Follows Visual Weight", "Hierarchy Must Be Visible Without Reading"]
+  },
+  {
+    "triggers": ["break up", "paragraph", "too dense", "chunk", "wall of text"],
+    "perceptual_intent": "The visual chunk is too large for working memory. The reader is overwhelmed by density.",
+    "how_to_execute": "Identify natural topic shifts. Create visual breaks at those points using paragraph breaks, sub-headings, lists, or visual separators.",
+    "related_heuristics": ["Miller's Law", "Cognitive Chunking"]
+  },
+  {
+    "triggers": ["stand out", "pop", "emphasis", "highlight", "draw attention"],
+    "perceptual_intent": "This element has insufficient emphasis relative to its importance. The reader's attention is not being directed to the right place.",
+    "how_to_execute": "Increase visual contrast between this element and its surroundings. Use size, weight, color, whitespace, or position. Choose the treatment most consistent with the existing visual language.",
+    "related_heuristics": ["Contrast Creates Emphasis", "Emphasis Requires Restraint", "Strategic Use of Whitespace"]
+  },
+  {
+    "triggers": ["simplify", "too complex", "overwhelming", "cluttered", "noisy"],
+    "perceptual_intent": "The cognitive load is too high. The reader is overwhelmed. The information needs to be presented in a way that manages complexity.",
+    "how_to_execute": "Identify the core message. Remove non-essential information. Use progressive disclosure. Break dense content into chunks. Use visual hierarchy to guide through information in order of importance.",
+    "related_heuristics": ["Remove Before Adding", "Simplicity Is Not Simplistic"]
+  },
+  {
+    "triggers": ["professional", "authoritative", "trustworthy", "credible", "serious"],
+    "perceptual_intent": "The visual signals do not match the content's authority level. The design does not communicate the appropriate quality for the context.",
+    "how_to_execute": "Increase visual consistency. Use restrained typography. Ensure precise alignment. Use a professional color palette. Reduce decorative elements. Increase white space.",
+    "related_heuristics": ["Restraint in Color, Typography, and Treatment"]
+  },
+  {
+    "triggers": ["scannable", "scan", "find information", "navigation", "locating"],
+    "perceptual_intent": "The reader will scan, not read. The content needs scan anchors so the reader can find what they need without reading everything.",
+    "how_to_execute": "Add clear headings. Use bullet points for lists. Bold key terms. Create visual hierarchy that supports scanning. Reduce paragraph density.",
+    "related_heuristics": ["Scannable Structure for Reference Content", "The Path Should Be Obvious"]
+  },
+  {
+    "triggers": ["table", "data", "compare", "comparison", "structured data"],
+    "perceptual_intent": "The information has a structured relationship that would be clearer in a tabular format.",
+    "how_to_execute": "Evaluate whether a table is the right structure. If data has clear row/column relationships, use a table. If sequential, use a list. If hierarchical, use a nested structure.",
+    "related_heuristics": ["Proximity Signals Relationship"]
+  },
+  {
+    "triggers": ["sidebar", "supplementary", "secondary", "aside", "supplement"],
+    "perceptual_intent": "The primary content area is serving two purposes: main content and supplementary information. These need visual separation.",
+    "how_to_execute": "Create clear visual distinction between primary and secondary content. May be a sidebar, callout boxes, indented sections, or visual separators.",
+    "related_heuristics": ["Boundaries Clarify Groups", "Figure-Ground"]
+  },
+  {
+    "triggers": ["color", "colour", "palette", "brand color", "color scheme"],
+    "perceptual_intent": "The design is visually monotonous or the color does not serve hierarchy and scanning.",
+    "how_to_execute": "Add color strategically: one accent color for emphasis, used consistently. Color should serve hierarchy and scanning, not decoration.",
+    "related_heuristics": ["Contrast Creates Emphasis", "Restraint in Color, Typography, and Treatment"]
+  },
+  {
+    "triggers": ["font", "typeface", "typography", "text style", "type"],
+    "perceptual_intent": "The current typeface is not communicating the right tone or supporting readability.",
+    "how_to_execute": "Evaluate what the typeface communicates. Choose one that matches the content's tone. Ensure readability at the intended size and context.",
+    "related_heuristics": ["Restraint in Color, Typography, and Treatment", "Consistency"]
+  },
+  {
+    "triggers": ["box", "container", "card", "border", "frame"],
+    "perceptual_intent": "This content needs to be visually separated from its surroundings. It is a distinct group.",
+    "how_to_execute": "Use proximity, background color, border, or shadow to create visual separation. Whitespace alone may achieve the same effect with less visual weight.",
+    "related_heuristics": ["Boundaries Clarify Groups", "Common Region"]
+  },
+  {
+    "triggers": ["align", "alignment", "grid", "layout", "structure"],
+    "perceptual_intent": "Elements are not following clear axes, causing the eye to zigzag rather than follow a smooth path.",
+    "how_to_execute": "Align elements along consistent grid lines. Use consistent margins. The eye should travel smoothly, not erratically.",
+    "related_heuristics": ["Continuity", "Vertical Flow for Sequential Content"]
+  },
+  {
+    "triggers": ["list", "bullet", "numbered", "sequence", "order"],
+    "perceptual_intent": "Sequential or enumerated information would be clearer with explicit ordering.",
+    "how_to_execute": "Use numbered lists for sequential content. Use bullet lists for unordered groups. Ensure list formatting is consistent throughout.",
+    "related_heuristics": ["Proximity Signals Relationship", "Repetition Builds Trust"]
+  },
+  {
+    "triggers": ["call to action", "cta", "button", "action", "convert"],
+    "perceptual_intent": "The primary action is not visually prominent enough to draw the reader's attention.",
+    "how_to_execute": "Use the strongest emphasis treatment in the design for the primary CTA. Use whitespace to isolate it. Ensure it is in the natural flow path.",
+    "related_heuristics": ["Contrast Creates Emphasis", "The Path Should Be Obvious"]
+  },
+  {
+    "triggers": ["complete", "finished", "resolved", "incomplete", "abandoned"],
+    "perceptual_intent": "The page or section feels unfinished. The brain seeks completeness and is uncomfortable with incomplete patterns.",
+    "how_to_execute": "Ensure every section has a clear beginning, middle, and end. The page should feel resolved at any stopping point.",
+    "related_heuristics": ["The Closure Principle", "Every Section Needs a Clear Beginning and End"]
+  }
+]

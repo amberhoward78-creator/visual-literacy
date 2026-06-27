@@ -1,0 +1,209 @@
+[
+  {
+    "category": "Hierarchy",
+    "name": "Attention Follows Visual Weight",
+    "principle": "The largest, boldest, most contrast-rich element attracts the eye first.",
+    "perceptual_basis": "Pre-attentive processing. The brain detects size and contrast before conscious thought.",
+    "violation": "All elements same size, weight, or color. Reader must decide importance on their own.",
+    "diagnosis": "Squint at the design. What do you see first? Is that what should be seen first?",
+    "fix": "Increase size, weight, or contrast of the most important element. Reduce treatment of secondary elements."
+  },
+  {
+    "category": "Hierarchy",
+    "name": "One Primary Focus Per View",
+    "principle": "Every screen, page, or section should have one dominant focal point.",
+    "perceptual_basis": "Figure-ground. The brain needs a clear figure to organize around.",
+    "violation": "Multiple elements competing for equal attention. The eye bounces without landing.",
+    "diagnosis": "Count the elements that could be 'the main thing.' If more than one, hierarchy is broken.",
+    "fix": "Choose one primary element. De-emphasize all others through size, color, or position."
+  },
+  {
+    "category": "Hierarchy",
+    "name": "Hierarchy Must Be Visible Without Reading",
+    "principle": "A reader should understand the information structure from layout alone, before reading a word.",
+    "perceptual_basis": "Pre-attentive processing + Gestalt. Layout communicates structure faster than content.",
+    "violation": "Structure only visible through reading text. All text blocks look the same.",
+    "diagnosis": "Convert the design to grayscale and blur it. Can you still tell the hierarchy?",
+    "fix": "Use size, weight, spacing, and position to create structure that is visible without reading."
+  },
+  {
+    "category": "Grouping",
+    "name": "Proximity Signals Relationship",
+    "principle": "Items close together are perceived as related. Items far apart are perceived as separate.",
+    "perceptual_basis": "Gestalt proximity.",
+    "violation": "Equal spacing between all items regardless of relationship. Reader must figure out groupings.",
+    "diagnosis": "Draw circles around groups. If the groups are not obvious without the circles, grouping is insufficient.",
+    "fix": "Reduce spacing between related items. Increase spacing between unrelated items."
+  },
+  {
+    "category": "Grouping",
+    "name": "Similarity Signals Type",
+    "principle": "Items of the same type should share visual treatment (color, size, style).",
+    "perceptual_basis": "Gestalt similarity.",
+    "violation": "Same content type styled differently across the document.",
+    "diagnosis": "List all elements of the same type. Do they look the same? If not, consistency is broken.",
+    "fix": "Standardize visual treatment for each content type. One heading style, one link style, one caption style."
+  },
+  {
+    "category": "Grouping",
+    "name": "Boundaries Clarify Groups",
+    "principle": "When proximity alone is insufficient, use visual boundaries (cards, borders, background color, whitespace).",
+    "perceptual_basis": "Gestalt common region + figure-ground.",
+    "violation": "Dense content with no visual separation between sections.",
+    "diagnosis": "Remove all whitespace. If the content becomes an undifferentiated wall, boundaries are needed.",
+    "fix": "Add containers, borders, or background color to separate distinct groups."
+  },
+  {
+    "category": "Rhythm",
+    "name": "Spacing Should Follow a Scale",
+    "principle": "Use a consistent spacing scale (4px, 8px, 16px, 24px, 32px, 48px, 64px). Never use arbitrary values.",
+    "perceptual_basis": "Consistency and expectation. Predictable spacing reduces decision-making.",
+    "violation": "Random spacing values (13px, 17px, 22px, 31px).",
+    "diagnosis": "Measure spacing between similar elements. If values vary without reason, rhythm is broken.",
+    "fix": "Establish a spacing scale and apply it proportionally."
+  },
+  {
+    "category": "Rhythm",
+    "name": "Vertical Rhythm Creates Flow",
+    "principle": "Consistent vertical spacing between sections creates a reading cadence.",
+    "perceptual_basis": "Continuity. The eye follows predictable vertical paths.",
+    "violation": "Spacing varies dramatically between sections.",
+    "diagnosis": "Measure the vertical space between consecutive sections. If it varies by more than 25%, rhythm is inconsistent.",
+    "fix": "Apply consistent inter-section spacing. Use the spacing scale."
+  },
+  {
+    "category": "Rhythm",
+    "name": "Repetition Builds Trust",
+    "principle": "Repeated visual patterns create familiarity and reduce learning cost.",
+    "perceptual_basis": "Similarity + consistency.",
+    "violation": "Every section introduces a new visual style.",
+    "diagnosis": "List the visual patterns used. If every section looks different, there is no repetition.",
+    "fix": "Establish visual patterns early. Repeat them throughout."
+  },
+  {
+    "category": "Emphasis",
+    "name": "Contrast Creates Emphasis",
+    "principle": "The greater the visual contrast, the greater the emphasis.",
+    "perceptual_basis": "Pre-attentive processing.",
+    "violation": "Everything is equally prominent. No element stands out.",
+    "diagnosis": "Squint. What pops out? Is it the most important thing?",
+    "fix": "Increase contrast for the most important element. Decrease contrast for secondary elements."
+  },
+  {
+    "category": "Emphasis",
+    "name": "Emphasis Requires Restraint",
+    "principle": "If everything is emphasized, nothing is.",
+    "perceptual_basis": "Figure-ground. Emphasis requires a ground to stand against.",
+    "violation": "Bold headers, bright colors, large text, and icons on every element simultaneously.",
+    "diagnosis": "Count the elements with emphasis treatments. If more than 20%, emphasis is diluted.",
+    "fix": "Limit emphasis to 1-2 elements per view. De-emphasize everything else."
+  },
+  {
+    "category": "Emphasis",
+    "name": "Strategic Use of Whitespace",
+    "principle": "Whitespace around an element increases its prominence by isolating it.",
+    "perceptual_basis": "Figure-ground + proximity.",
+    "violation": "Cramming content into every available space.",
+    "diagnosis": "Add whitespace around the most important element. Does it become more prominent?",
+    "fix": "Isolate key elements with generous whitespace."
+  },
+  {
+    "category": "Balance",
+    "name": "Balance Does Not Mean Symmetry",
+    "principle": "Asymmetrical balance is often more dynamic and engaging than perfect symmetry.",
+    "perceptual_basis": "Figure-ground.",
+    "violation": "Layout feels like it is tilting to one side.",
+    "diagnosis": "Divide the page into quadrants. If one quadrant has significantly more visual weight, balance is off.",
+    "fix": "Distribute visual weight. Use whitespace to counterbalance dense areas."
+  },
+  {
+    "category": "Balance",
+    "name": "White Space Is Not Empty Space",
+    "principle": "White space is an active design element, not a void to be filled.",
+    "perceptual_basis": "Signal-to-noise.",
+    "violation": "Filling every pixel with content. Viewing white space as wasted space.",
+    "diagnosis": "If the page feels 'full' rather than 'complete,' white space is insufficient.",
+    "fix": "Treat white space as a design element. Use it intentionally."
+  },
+  {
+    "category": "Completion",
+    "name": "The Closure Principle",
+    "principle": "The brain seeks completeness. Incomplete patterns create discomfort.",
+    "perceptual_basis": "Gestalt closure.",
+    "violation": "Elements that feel like they are missing something. Incomplete sections.",
+    "diagnosis": "Look at the bottom of the page. Does it feel finished?",
+    "fix": "Ensure every section has a clear beginning, middle, and end."
+  },
+  {
+    "category": "Completion",
+    "name": "Every Section Needs a Clear Beginning and End",
+    "principle": "Transitions between sections should be intentional, not accidental.",
+    "perceptual_basis": "Continuity.",
+    "violation": "Sections that blend into each other without clear separation.",
+    "diagnosis": "Can you point to exactly where one section ends and the next begins?",
+    "fix": "Add clear visual separators between sections."
+  },
+  {
+    "category": "Completion",
+    "name": "The Page Should Feel Complete at Any Stopping Point",
+    "principle": "If a reader stops halfway, they should still have a coherent experience.",
+    "perceptual_basis": "Progressive disclosure.",
+    "violation": "Content that only makes sense if read in full.",
+    "diagnosis": "Read only the first half of the page. Do you have a coherent understanding?",
+    "fix": "Structure content so each section is self-contained."
+  },
+  {
+    "category": "Flow",
+    "name": "The Path Should Be Obvious",
+    "principle": "A reader should never wonder 'where do I look next?'",
+    "perceptual_basis": "Continuity + reading patterns.",
+    "violation": "Dead ends, unclear transitions, layouts that force searching.",
+    "diagnosis": "Trace the path the eye would follow. Is it a smooth path or a scavenger hunt?",
+    "fix": "Create clear visual pathways. Use alignment, proximity, and arrows."
+  },
+  {
+    "category": "Flow",
+    "name": "Vertical Flow for Sequential Content",
+    "principle": "Content that should be read in order needs strong vertical flow.",
+    "perceptual_basis": "Continuity + reading patterns.",
+    "violation": "Two-column layouts that force zigzag reading for sequential content.",
+    "diagnosis": "Would a reader naturally read this top-to-bottom?",
+    "fix": "Use single-column for sequential content. Two columns only for non-sequential information."
+  },
+  {
+    "category": "Flow",
+    "name": "Scannable Structure for Reference Content",
+    "principle": "Content that will be scanned needs clear scan anchors.",
+    "perceptual_basis": "F-pattern.",
+    "violation": "Dense text with no headings, labels, or visual landmarks.",
+    "diagnosis": "Can a reader find the information they need in under 5 seconds?",
+    "fix": "Add headings, bullet points, bold key terms, visual markers."
+  },
+  {
+    "category": "Restraint",
+    "name": "Remove Before Adding",
+    "principle": "Before adding any element, ask: does this serve comprehension?",
+    "perceptual_basis": "Signal-to-noise.",
+    "violation": "Adding decorative elements, redundant text, or filler content.",
+    "diagnosis": "Remove one element at a time. Does comprehension improve?",
+    "fix": "Remove every element that does not directly serve comprehension."
+  },
+  {
+    "category": "Restraint",
+    "name": "Simplicity Is Not Simplistic",
+    "principle": "Reducing complexity is not the same as reducing depth.",
+    "perceptual_basis": "Progressive disclosure + chunking.",
+    "violation": "Either overwhelming with raw complexity or oversimplifying until meaning is lost.",
+    "diagnosis": "Is the content as simple as it can be without losing meaning?",
+    "fix": "Manage complexity through structure, not by removing substance."
+  },
+  {
+    "category": "Restraint",
+    "name": "Restraint in Color, Typography, and Treatment",
+    "principle": "Use the minimum number of colors, fonts, and treatments needed.",
+    "perceptual_basis": "Consistency + signal-to-noise.",
+    "violation": "5 colors, 3 fonts, and 4 decoration styles when 2 colors, 1 font, and 2 treatments would suffice.",
+    "diagnosis": "List every visual variable in use. Can you reduce any without losing clarity?",
+    "fix": "Reduce to the minimum variables needed for clear hierarchy."
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "name": "visual-literacy-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Visual Literacy — teaches AI to reason about design using perceptual psychology and expert heuristics",
+  "author": "Amber Howard",
+  "license": "MIT",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "visual-literacy-mcp": "./server.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "design",
+    "visual-literacy",
+    "heuristics",
+    "ux",
+    "usability",
+    "nielsen",
+    "cognitive-science",
+    "ai-agent"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "server.js",
+    "tools/",
+    "data/",
+    "README.md"
+  ]
+}
