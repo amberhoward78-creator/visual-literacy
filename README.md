@@ -192,4 +192,4 @@ MIT
 
 ## Credits
 
-Created by Amber Howard. Architecture identified in collaboration with ChatGPT.
+Created by Amber Howard. Developed in collaboration with OpenCode and ChatGPT.
