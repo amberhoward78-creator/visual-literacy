@@ -37,6 +37,18 @@ Visual Literacy is a reasoning framework — not a prompt template, not a format
 
 The problem it solves: AI can generate a layout. It cannot tell you if the layout *works*. It does not notice flat hierarchy, broken rhythm, competing emphasis, or cognitive overload. This framework gives it those perceptions as explicit reasoning principles.
 
+## This Augments Human Judgement. It Does Not Replace It.
+
+Visual Literacy teaches AI to reason about design so that humans can make better decisions faster — not so that AI makes decisions alone.
+
+The goal is a collaboration:
+- **AI provides** structured analysis, perceptual reasoning, and diagnostic frameworks
+- **Humans provide** intent, taste, context, audience knowledge, and final judgment
+
+An AI that can score a design 0-5 across eight dimensions is useful. An AI that overrides a designer's informed choice because it scored lower on a rubric is not.
+
+Use this framework to sharpen your thinking, not to outsource it.
+
 ## The Premise
 
 AI does not possess visual intuition. It cannot instantly recognize when a page feels balanced, crowded, unfinished, confusing, or elegant. This intuition must be translated into explicit reasoning principles.
